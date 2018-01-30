@@ -2,11 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Saudação</title>
+    <title>Página de saudação</title>
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+
   </head>
   <body>
-    @for ($i=0; $i < 10; $i++)
-      <h3>Olá {{$i}}</h3><!-- realiza a vizualização da variavel {}-->
-    @endfor <!--uso do blade apenas usamos @ para casos de laços e decissões traduzindo para php-->
+
+    <div class="container">
+      <h1>Olá Mundo</h1>
+    </div>
+    <script type="text/javascript" src="/js/app.js">
   </body>
+
 </html>
